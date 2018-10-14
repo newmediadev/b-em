@@ -326,7 +326,7 @@ static ALLEGRO_MENU *create_sound_menu(void)
     ALLEGRO_MENU *sub;
     add_checkbox_item(menu, "Internal sound chip",   IDM_SOUND_INTERNAL,  sound_internal);
     add_checkbox_item(menu, "BeebSID",               IDM_SOUND_BEEBSID,   sound_beebsid);
-    add_checkbox_item(menu, "Music 5000",            IDM_SOUND_MUSIC5000, sound_music5000);
+    add_checkbox_item(menu, "Hybrid Music System",   IDM_SOUND_MUSIC5000, sound_music5000);
     add_checkbox_item(menu, "Printer port DAC",      IDM_SOUND_DAC,       sound_dac);
     add_checkbox_item(menu, "Disc drive noise",      IDM_SOUND_DDNOISE,   sound_ddnoise);
     add_checkbox_item(menu, "Tape noise",            IDM_SOUND_TAPE,      sound_tape);

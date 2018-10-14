@@ -105,6 +105,10 @@
 #include <stdalign.h>
 #endif
 
+#ifdef _MSC_VER
+#include "vs-includes\tsearch.h"
+#endif
+
 /* Assume malloc returns naturally aligned (alignof (max_align_t))
    pointers so we can use the low bits to store some extra info.  This
    works for the left/right node pointers since they are not user

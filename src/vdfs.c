@@ -36,8 +36,14 @@
 #include <ctype.h>
 #include <errno.h>
 #include <stdlib.h>
-#include <dirent.h>
+#ifdef _MSC_VER
+#include <io.h>
+#include "vs-includes\tsearch.h"
+#include "vs-includes\dirent.h"
+#else
 #include <unistd.h>
+#include <dirent.h>
+#endif
 
 #include <search.h>
 #include <sys/stat.h>

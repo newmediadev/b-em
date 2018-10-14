@@ -3,6 +3,12 @@
 #include <string.h>
 #include <time.h>
 
+#ifdef _MSC_VER 
+#pragma once
+#define getc_unlocked _fgetc_nolock
+#define putc_unlocked _fputc_nolock
+#endif
+
 enum
 {
         IMP,IMPA,IMM,ZP,ZPX,ZPY,INDX,INDY,IND,ABS,ABSX,ABSY,IND16,IND1X,BRA

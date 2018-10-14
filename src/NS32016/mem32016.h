@@ -1,3 +1,10 @@
+#ifdef _MSC_VER
+// Added this here just to get the source to build for now under VS 2017
+// Probably a better place to do this but unfamiliar with the code base.
+// PaulV
+#define INCLUDE_DEBUGGER
+#endif
+
 #define IO_BASE         0xFFFFF0
 
 //#define PANDORA_BASE    0xF00000

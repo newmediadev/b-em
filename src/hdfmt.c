@@ -7,6 +7,11 @@
 #define DIR_SECTORS     5
 #define INITIAL_SECTORS (DIR_SECTORS+2)
 
+#ifdef _MSC_VER 
+#include <malloc.h>
+#define alloca _malloca
+#endif
+
 static int parse_size(const char *size)
 {
         int value;

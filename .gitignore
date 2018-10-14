@@ -29,3 +29,8 @@ src/vdfs.lst
 src/version.asm
 src/jstest
 src/jstest.exe
+/src/Debug
+/src/packages
+/src/Release
+/.vs
+/src/.vs/config

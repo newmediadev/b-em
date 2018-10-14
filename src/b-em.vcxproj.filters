@@ -45,9 +45,6 @@
     <ClInclude Include="6502tube.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="32016.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="65816.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -55,9 +52,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="adc.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="adf.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="arm.h">
@@ -132,9 +126,6 @@
     <ClInclude Include="savestate.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="scan2bbc.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="serial.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -148,12 +139,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="sound.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="soundopenal.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ssd.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="sysvia.h">
@@ -186,9 +171,6 @@
     <ClInclude Include="wd1770.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="win.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="x86.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -197,6 +179,651 @@
     </ClInclude>
     <ClInclude Include="z80.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="z80dis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vdfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tapecat-allegro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sysacia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssinline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="music5000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="music4000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="music2000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keydef-allegro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui-allegro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="6502debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compat_wrappers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vs-includes\dirent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vs-includes\tsearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\internal\alconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\gl_ext_alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\gl_ext_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\gl_ext_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\gl_ext_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\glx_ext_alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\glx_ext_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\glx_ext_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\glx_ext_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\wgl_ext_alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\wgl_ext_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\wgl_ext_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\GLext\wgl_ext_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\opengl\gl_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alandroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alandroidcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\albcc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\aliphone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\aliphonecfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\allegro_sdl_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\almngw32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\almsvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alosx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alosxcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alplatf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alraspberrypi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alraspberrypicfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alucfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alunix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alwatcom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\alwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\astdbool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\platform\astdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\alcompat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_acodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_direct3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_memfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_native_dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_physfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_primitives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_ttf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\allegro5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\altime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\bitmap_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\bitmap_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\bitmap_lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\blender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\drawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\fmaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\fshook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\fullscreen_mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\haptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\keycodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\mouse_cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\render_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\tls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\touch_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\transformations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\ordinals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\stream_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\FLAC\stream_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\config\ftconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\config\ftheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\config\ftmodule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\config\ftoption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\config\ftstdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ft2build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftadvanc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftautoh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftbbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftbdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftbzip2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftcffdrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftchapters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftcid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\fterrdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\fterrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftgasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftglyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftgxval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftgzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftincrem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftlcdfil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftlzw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftmodapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftmoderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftotval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftoutln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftpfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftrender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftsizes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftsnames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftsynth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\fttrigon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftttdrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\fttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftwinfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ftxf86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\t1tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ttnameid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\tttables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\tttags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\freetype2\ttunpat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\libpng16\png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\libpng16\pngconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\libpng16\pnglibconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\ogg\ogg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\ogg\os_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\opus\opus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\opus\opus_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\opus\opus_multistream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\opus\opus_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\opus\opusfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\theora\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\theora\theora.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\theora\theoradec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\vorbis\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\vorbis\vorbisenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\vorbis\vorbisfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\dumb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\jconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\jerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\jmorecfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\jpeglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\physfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\pngconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\pnglibconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\turbojpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\AllegroDeps.1.5.0.0\build\native\include\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\pandora\PandoraV0_61.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\pandora\PandoraV1_00.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\pandora\PandoraV2_00.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\32016.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\32016_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\Decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\mem32016.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\NSDis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NS32016\Trap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\armv7-tbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\darm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\darm-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\darm-tbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\thumb2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\thumb2-tbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darm\thumb-tbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="midi.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -211,9 +838,6 @@
     <ClCompile Include="6502tube.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="32016.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="65816.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -221,9 +845,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="adc.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="adf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="arm.c">
@@ -268,15 +889,6 @@
     <ClCompile Include="keyboard.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="linux.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="linux-gui.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="linux-keydefine.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -305,12 +917,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sound.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="soundopenal.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ssd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sysvia.c">
@@ -344,12 +950,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="win.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win-catalogue.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win-keydefine.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="x86.c">
@@ -409,10 +1009,161 @@
     <ClCompile Include="resid-fp\wave.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="x86dasm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z80dis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vdfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tsearch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tapecat-allegro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sysacia.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scsi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="music5000.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="music4000.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="music2000.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keydef-allegro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui-allegro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6502debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compat_wrappers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\32016.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\32016_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\Decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\mem32016.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\NSDis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\Profile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NS32016\Trap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\armv7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\armv7-tbl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\darm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\darm-tbl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\thumb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\thumb2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\thumb2-decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\thumb2-tbl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darm\thumb-tbl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="midi-windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="b-em.ico">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="packages.config" />
+    <None Include="vdfs.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="tubehost.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="packages\Allegro.5.2.2.0\build\native\include\allegro5\inline\fmaths.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="packages\Allegro.5.2.2.0\build\native\Allegro.targets" />
+    <None Include="packages\Allegro.5.2.2.0\build\native\AllegroDeps.targets" />
+    <None Include="packages\Allegro.5.2.2.0\build\native\v140\win32\bin\allegro_acodec-5.2.dll" />
+    <None Include="packages\Allegro.5.2.2.0\build\native\v140\win32\bin\allegro_audio-5.2.dll" />
+    <None Include="packages\Allegro.5.2.2.0\build\native\v140\win32\bin\allegro_dialog-5.2.dll" />
+    <None Include="packages\Allegro.5.2.2.0\build\native\v140\win32\bin\allegro_font-5.2.dll" />
+    <None Include="packages\Allegro.5.2.2.0\build\native\v140\win32\bin\allegro-5.2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\dumb.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\FLAC.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\freetype.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\jpeg.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\libpng16.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\ogg.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\opus.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\opusfile.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\physfs.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\theoradec.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\vorbis.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\vorbisfile.lib" />
+    <Library Include="packages\AllegroDeps.1.5.0.0\build\native\v140\win32\deps\lib\zlib.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_acodec.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_audio.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_color.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_dialog.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_font.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_image.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_main.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_memfile.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_monolith-static.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_physfs.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_primitives.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_ttf.lib" />
+    <Library Include="packages\Allegro.5.2.2.0\build\native\v140\win32\lib\allegro_video.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="packages\Allegro.5.2.2.0\build\native\AllegroUI.xml" />
   </ItemGroup>
 </Project>
