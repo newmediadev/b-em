@@ -28,6 +28,7 @@ bool vid_print_mode = false;
 
 void video_clearscreen()
 {
+
     ALLEGRO_COLOR black = al_map_rgb(0, 0, 0);
 
     al_set_target_bitmap(b16);
@@ -62,7 +63,10 @@ void video_enterfullscreen()
 
     display = al_get_current_display();
     if (al_set_display_flag(display, ALLEGRO_FULLSCREEN_WINDOW, true)) {
-        black = al_map_rgb(0, 0, 0);
+
+		al_init_primitives_addon();
+
+		black = al_map_rgb(0, 0, 0);
         winsizex = al_get_display_width(display);
         winsizey = al_get_display_height(display);
         aspect = (double)winsizex / (double)winsizey;
