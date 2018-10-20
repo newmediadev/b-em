@@ -63,7 +63,9 @@ void video_enterfullscreen()
 
     display = al_get_current_display();
     if (al_set_display_flag(display, ALLEGRO_FULLSCREEN_WINDOW, true)) {
-
+		// If we don't initiate the primitives add on here, we get an access 
+		// violation if the primitives have not been initialised elsewhere  when
+		// built with Visual Studio 2017 - Paul V
 		al_init_primitives_addon();
 
 		black = al_map_rgb(0, 0, 0);

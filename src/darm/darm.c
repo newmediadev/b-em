@@ -27,6 +27,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 */
 
+#include "../b-em.h"
+
 #include <stdio.h>
 #include <ctype.h>
 #include <stdint.h>
@@ -34,14 +36,6 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <inttypes.h>
 #include "darm.h"
 #include "darm-internal.h"
-
-#ifdef _MSC_VER 
-// Added this here just to get the source to build for now under VS 2017
-// Probably a better place to do this but unfamiliar with the code base.
-// PaulV
-#include <intrin.h>
-#define __builtin_ctz __lzcnt
-#endif
 
 #define APPEND(out, ptr) \
     do { \

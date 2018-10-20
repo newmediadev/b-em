@@ -18,6 +18,8 @@
 #ifdef _MSC_VER
 #define inline __inline
 
+#define __builtin_ctz __lzcnt
+
 #define strcasecmp  _stricmp
 #define strncasecmp _strnicmp
 
