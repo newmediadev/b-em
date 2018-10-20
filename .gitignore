@@ -31,3 +31,8 @@ src/jstest
 src/jstest.exe
 src/gtest
 src/gtest.exe
+/src/Debug
+/src/packages
+/src/Release
+/src/.vs/config
+/.vs
