@@ -1108,6 +1108,12 @@
     <ClCompile Include="midi-windows.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sdf-geo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdf-acc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="b-em.ico">

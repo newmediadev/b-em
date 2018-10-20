@@ -11,6 +11,8 @@
  * the geometry.
  */
 
+#include "b-em.h"
+
 #include <allegro5/allegro.h>
 #include <stdint.h>
 #include <stdio.h>
