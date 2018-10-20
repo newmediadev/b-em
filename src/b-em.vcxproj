@@ -439,7 +439,6 @@
     <ClCompile Include="resid.cc" />
     <ClCompile Include="savestate.c" />
     <ClCompile Include="scsi.c" />
-    <ClCompile Include="sdf.c" />
     <ClCompile Include="serial.c" />
     <ClCompile Include="sn76489.c" />
     <ClCompile Include="sound.c" />
