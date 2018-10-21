@@ -172,19 +172,24 @@ void pal_convert(ALLEGRO_BITMAP *inb, int x1, int y1, int x2, int y2, int yoff)
                         wt += 256;
                         wt &= 1023;
 
-/*                        r = al_fixtoi(Y + al_fixmul(9339, V));
-                        g = al_fixtoi(Y - al_fixmul(3244,U) - al_fixmul(4760, V));
-                        b = al_fixtoi(Y + al_fixmul(16622,U));*/
+						/*                        r = al_fixtoi(Y + al_fixmul(9339, V));
+												g = al_fixtoi(Y - al_fixmul(3244,U) - al_fixmul(4760, V));
+												b = al_fixtoi(Y + al_fixmul(16622,U));*/
                         r = al_fixtoi(Y + V);
                         g = al_fixtoi(Y - al_fixmul(12790,  U) - al_fixmul(33403, V));
                         b = al_fixtoi(Y + U);
-
-                        if (r > 255) r = 255;
+						
+                        /*if (r > 255) r = 255;
                         if (r < 0)   r = 0;
                         if (g > 255) g = 255;
                         if (g < 0)   g = 0;
                         if (b > 255) b = 255;
-                        if (b < 0)   b = 0;
+                        if (b < 0)   b = 0;*/
+
+						r = ClampToByte(r);
+						g = ClampToByte(g);
+						b = ClampToByte(b);
+
 
                         al_put_pixel(x, y, al_map_rgb(r, b, g));
                 }
@@ -316,14 +321,18 @@ void pal_convert(int x1, int y1, int x2, int y2, int yoff)
                         g = Y - (0.396/8.0) * U - (0.581/8.0) * V;
                         b = Y + (2.029/8.0) * U;
 
-                        if (r > 255) r = 255;
+						/*if (r > 255) r = 255;
                         if (r < 0)   r = 0;
                         if (g > 255) g = 255;
                         if (g < 0)   g = 0;
                         if (b > 255) b = 255;
-                        if (b < 0)   b = 0;
+                        if (b < 0)   b = 0;*/
 
-                        put_pixel(dr, x, y, 0xff000000|(r << 16)|(r << 8)|b);
+						r = ClampToByte(r);
+						g = ClampToByte(g);
+						b = ClampToByte(b);
+
+                        put_pixel(dr, x, y, 0xff000000|(r << 16)|(g << 8)|b);
                 }
 
                 wt += (1024 - (x2 - x1));
@@ -332,4 +341,12 @@ void pal_convert(int x1, int y1, int x2, int y2, int yoff)
         al_unlock_bitmap(b32);
 }
 
+/*
+Allows us to quickly clamp an integer to the min/max values of a byte.
+*/
+int ClampToByte(int n)
+{
+	n = n > 255 ? 255 : n;
+	return n < 0 ? 0 : n;
+}
 #endif
