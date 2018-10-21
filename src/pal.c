@@ -341,6 +341,8 @@ void pal_convert(int x1, int y1, int x2, int y2, int yoff)
         al_unlock_bitmap(b32);
 }
 
+#endif
+
 /*
 Allows us to quickly clamp an integer to the min/max values of a byte.
 */
@@ -349,4 +351,3 @@ static inline int ClampToByte(int n)
 	n = n > 255 ? 255 : n;
 	return n < 0 ? 0 : n;
 }
-#endif
