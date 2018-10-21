@@ -17,13 +17,6 @@
 #include "32016_debug.h"
 #endif
 
-#ifdef _MSC_VER
-// Added this here just to get the source to build for now under VS 2017
-// Probably a better place to do this but unfamiliar with the code base.
-// PaulV
-#define BEM
-#endif
-
 #ifdef BEM
 
 #include "../tube.h"
