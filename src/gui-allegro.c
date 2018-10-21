@@ -106,7 +106,7 @@ static ALLEGRO_MENU *create_file_menu(void)
     al_append_menu_item(menu, "Save State...", IDM_FILE_SAVE_STATE, 0, NULL, NULL);
     al_append_menu_item(menu, "Save Screenshot...", IDM_FILE_SCREEN_SHOT, 0, NULL, NULL);
     add_checkbox_item(menu, "Print to file", IDM_FILE_PRINT, prt_fp);
-    add_checkbox_item(menu, "Record Music 5000 to file", IDM_FILE_M5000, music5000_fp);
+    add_checkbox_item(menu, "Record Hybrid Music System to file", IDM_FILE_M5000, music5000_fp);
     al_append_menu_item(menu, "Exit", IDM_FILE_EXIT, 0, NULL, NULL);
     return menu;
 }
