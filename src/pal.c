@@ -191,7 +191,7 @@ void pal_convert(ALLEGRO_BITMAP *inb, int x1, int y1, int x2, int y2, int yoff)
 						b = ClampToByte(b);
 
 
-                        al_put_pixel(x, y, al_map_rgb(r, b, g));
+                        al_put_pixel(x, y, al_map_rgb(r, g, b));
                 }
 
                 wt = old_wt - c;
